@@ -78,7 +78,11 @@ const Chat = () => {
   return (
     <div className="chat">
       <div className="chat__header">
-        <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} />
+        {/* <Avatar src={`https://avatars.dicebear.com/api/human/${seed}.svg`} /> */}
+        {/* <Avatar /> */}
+        <Avatar src={`https://api.dicebear.com/7.x/fun-emoji/svg`} />
+
+        {/* https://api.dicebear.com/7.x/fun-emoji/svg */}
 
         <div className="chat__headerInfo">
           <h3>{roomName ? roomName : "Welcome to Whatsapp"}</h3>
